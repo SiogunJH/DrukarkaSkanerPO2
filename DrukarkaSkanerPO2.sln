@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base", "DrukarkaSkanerPO2\Base.csproj", "{7E55A067-08F9-4342-84DC-93BE2469F3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1", "Zadanie1\Zadanie1.csproj", "{2C5AA1D4-31C7-48FD-81DA-6E97D2F3496B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1UT", "Zadanie1UT\Zadanie1UT.csproj", "{E7957E0B-F0AF-4012-AC8A-6F1BC377F7DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E55A067-08F9-4342-84DC-93BE2469F3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E55A067-08F9-4342-84DC-93BE2469F3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E55A067-08F9-4342-84DC-93BE2469F3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E55A067-08F9-4342-84DC-93BE2469F3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5AA1D4-31C7-48FD-81DA-6E97D2F3496B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5AA1D4-31C7-48FD-81DA-6E97D2F3496B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5AA1D4-31C7-48FD-81DA-6E97D2F3496B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5AA1D4-31C7-48FD-81DA-6E97D2F3496B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7957E0B-F0AF-4012-AC8A-6F1BC377F7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7957E0B-F0AF-4012-AC8A-6F1BC377F7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7957E0B-F0AF-4012-AC8A-6F1BC377F7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7957E0B-F0AF-4012-AC8A-6F1BC377F7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCD83AB2-C5D4-4794-81E1-E5DDDB5FFA74}
+	EndGlobalSection
+EndGlobal
