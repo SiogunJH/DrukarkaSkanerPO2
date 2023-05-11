@@ -52,7 +52,6 @@ namespace Base
 
     public interface IFax : IDevice
     {
-        void Send(in IDocument document);
+        void Fax(in IDocument document);
     }
-
 }

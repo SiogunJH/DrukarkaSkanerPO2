@@ -1,14 +1,13 @@
 ﻿using Base;
-using System.Reflection;
-using System.Reflection.Metadata;
 
-namespace Zadanie1
+namespace Zadanie2
 {
-    public class Copier : BaseDevice, IPrinter, IScanner
+    public class MultifunctionalDevice : BaseDevice, IFax
     {
         public new int Counter { get; private set; } = 0;
         public int PrintCounter { get; private set; } = 0;
         public int ScanCounter { get; private set; } = 0;
+        public int FaxCounter { get; private set; } = 0;
 
         public new void PowerOn()
         {
@@ -25,7 +24,7 @@ namespace Zadanie1
         public void Print(in IDocument document)
         {
             if (GetState() == IDevice.State.off) return;
-            
+
             var outputString = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss ");
             outputString += $"Print: {document.GetFileName()}.";
             switch (document.GetFormatType())
@@ -75,7 +74,7 @@ namespace Zadanie1
 
         public void Scan(out IDocument document)
         {
-            if (GetState() == IDevice.State.off) 
+            if (GetState() == IDevice.State.off)
             {
                 document = null;
                 return;
@@ -93,10 +92,32 @@ namespace Zadanie1
         public void ScanAndPrint()
         {
             if (GetState() == IDevice.State.off) return;
-            
+
             IDocument document;
             Scan(out document);
             Print(document);
+        }
+
+        public void Fax(in IDocument document)
+        {
+            if (GetState() == IDevice.State.off) return;
+
+            var outputString = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss ");
+            outputString += $"Fax: {document.GetFileName()}.";
+            switch (document.GetFormatType())
+            {
+                case IDocument.FormatType.PDF:
+                    outputString += "pdf";
+                    break;
+                case IDocument.FormatType.TXT:
+                    outputString += "txt";
+                    break;
+                case IDocument.FormatType.JPG:
+                    outputString += "jpg";
+                    break;
+            }
+            Console.WriteLine(outputString);
+            FaxCounter++;
         }
     }
 }
