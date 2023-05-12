@@ -5,17 +5,21 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie1UT", "Zadanie1UT\Zadanie1UT.csproj", "{E7957E0B-F0AF-4012-AC8A-6F1BC377F7DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1", "Zadanie1\Zadanie1.csproj", "{4F5B6245-70B9-44F3-ABB0-0BD2629871DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie1", "Zadanie1\Zadanie1.csproj", "{4F5B6245-70B9-44F3-ABB0-0BD2629871DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{0FA332B3-5258-4389-9D3F-427EDEFB5590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program", "Program\Program.csproj", "{0FA332B3-5258-4389-9D3F-427EDEFB5590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie2", "Zadanie2\Zadanie2.csproj", "{1F7D590B-AA94-4335-A447-36392706D744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie2", "Zadanie2\Zadanie2.csproj", "{1F7D590B-AA94-4335-A447-36392706D744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie2UT", "Zadanie2UT\Zadanie2UT.csproj", "{31ED1464-212B-41E5-84AA-2F9A5FB3F087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie2UT", "Zadanie2UT\Zadanie2UT.csproj", "{31ED1464-212B-41E5-84AA-2F9A5FB3F087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie3", "Zadanie3\Zadanie3.csproj", "{21769491-7B81-4F1D-90A0-F80710E8498D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie3", "Zadanie3\Zadanie3.csproj", "{21769491-7B81-4F1D-90A0-F80710E8498D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie3UT", "Zadanie3UT\Zadanie3UT.csproj", "{4D808E57-62B5-4018-A13A-E483807CCCDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie3UT", "Zadanie3UT\Zadanie3UT.csproj", "{4D808E57-62B5-4018-A13A-E483807CCCDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie4", "Zadanie4\Zadanie4.csproj", "{DCC83C1E-87EA-4066-9443-ED95E7DABFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie5", "Zadanie5\Zadanie5.csproj", "{2FAE6B46-8FCA-42B4-8353-DDCA4D759723}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{4D808E57-62B5-4018-A13A-E483807CCCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D808E57-62B5-4018-A13A-E483807CCCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D808E57-62B5-4018-A13A-E483807CCCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC83C1E-87EA-4066-9443-ED95E7DABFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC83C1E-87EA-4066-9443-ED95E7DABFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC83C1E-87EA-4066-9443-ED95E7DABFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC83C1E-87EA-4066-9443-ED95E7DABFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAE6B46-8FCA-42B4-8353-DDCA4D759723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAE6B46-8FCA-42B4-8353-DDCA4D759723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAE6B46-8FCA-42B4-8353-DDCA4D759723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAE6B46-8FCA-42B4-8353-DDCA4D759723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
